@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto&display=swap');
+
+/* Menu and Links */
+.menu {
+    height: 100vh;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.profile-image {
+    margin-top: 25vh;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 0.5em solid;
+    z-index: 999999;
+}
+
+.subLink {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10%;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+/* Content of each page */
+/* Index */
+.content {
+    height: 100%;
+    width: 70%;
+    margin: 30vh 39px;
+    background-color: #fff;
+    float: right;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.personal-info {
+    font-size: 15px;
+    margin-bottom: 2vh;
+}
+
+.description {
+    margin-top: 2vh;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+#socials {
+    margin-top: 5%;
+}
+
+#socials a {
+    padding: 15px;
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Knowledges */
+#knowledges-content {
+    margin-bottom: 10vh;
+    margin-left: 39px;
+    text-transform: none;
+    font-size: 1.5em;
+}
+
+/* General */
+.fa-brands {
+    margin-left: 2px;
+}
+
+.light-purple {
+    background-color: rgb(177, 188, 230);
+}
+
+.dark-purple {
+    border-color: rgb(101, 93, 138);
+    color: rgb(101, 93, 138);
+}
+
+.active-link {
+    color: #fff;
+    text-shadow: 10px black;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+li::marker {
+    color: pink;
+}
+
+/* https://github.com/mauriciolima2701/curriculo_Mauricio/blob/master/css/style.css */
